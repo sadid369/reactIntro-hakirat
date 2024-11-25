@@ -6,7 +6,7 @@ function addTodo (params) {
     const p = document.createElement("p");
     p.textContent = description;
     document.body.append(h2, p);
-
+    // 
     console.log(title);
     console.log(description);
 }
